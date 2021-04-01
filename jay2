@@ -1,0 +1,10 @@
+ls
+ssh -i webserverkeypair.pem ununtu@ec2-172.25.250.25
+ls
+cd services
+services ls
+lsblk
+/dev/vda1
+lsblk
+du -hs *
+scp -i webserverkeypair.pem steps.txt ununtu@ec2
